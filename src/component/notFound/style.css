@@ -1,0 +1,20 @@
+.c-notfound {
+    min-height: calc(100vh - 80px);
+    padding: 30px 10px 10px 20px;
+    background-color: var(--midle);
+}
+
+.error-notfound {
+    color: var(--danger);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.message-notfound {
+    color: var(--success);
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom:1px solid var(--main) ;
+}

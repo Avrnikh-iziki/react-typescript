@@ -1,0 +1,9 @@
+.active {
+    font-weight: "bold";
+    color: "#161616"
+}
+
+.notactive {
+    text-decoration: "none";
+    color: "#161616"
+}

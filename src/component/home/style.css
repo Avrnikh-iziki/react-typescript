@@ -1,0 +1,43 @@
+.c-HeadreHome {
+    position: relative;
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: rgba(15, 15, 15, .8);
+    padding: 2px 10px;
+    border-left: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.im-HeadreHome {
+    position: absolute;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/022/448/291/original/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg");
+    background-color: rgba(12, 12, 12, .1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1
+}
+
+.t-HeadreHome {
+    color: var(--white);
+    font-weight: 600;
+}
+
+.d-HeadreHome {
+ width: 50%;
+ text-align: center;
+ color: var(--white);
+}
+.de-HeadreHome{
+    text-align: start;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.c-login {
+    text-align: center;
+    height: 180px;
+    width: 250px;
+}
+
+.f-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-login {
+    color: var(--info);
+    font-style:oblique;
+}
+
+.i-login {
+    height: 30px;
+    outline: none;
+    border: 1px solid var(--dark);
+    border-radius:3px ;
+    margin-top: 10px;
+}
+.d-login{
+    height: 20px;
+    margin-top: 10px;
+}
+.i-login[type="button"]{
+    background-color: var(--success);
+    height: 20px;
+   padding: 0px 15px;
+    margin-top:0 ;
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.err-login {
+    height: 15px;
+    width: 100%;
+    color: var(--danger);
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
